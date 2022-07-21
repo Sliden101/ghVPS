@@ -1,0 +1,14 @@
+name: Ubuntu SSH
+on: push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Try SSH
+        uses: actions/checkout@v3
+      - name: SSH
+        run: |
+          bash ./ssh.sh
+      - name: KeepAlive
+        run: bash ./keepalive.sh
