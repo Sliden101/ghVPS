@@ -3,7 +3,7 @@
 NGROK_TOKEN=""
 USER_PASS=""
 if [[ -z "$NGROK_TOKEN" ]]; then
-  echo "Please set 'NGROK_TOKEN'"
+  echo "Please set '2OinymfNRNMemxL5lrSs8Jh1ZvH_u9rx4dLNcXgSytgb4BZm'"
   exit 2
 fi
 
